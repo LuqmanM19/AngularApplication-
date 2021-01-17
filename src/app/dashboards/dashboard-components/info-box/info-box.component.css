@@ -1,0 +1,35 @@
+.line-chart {
+	max-width: 130px; 
+	height: 15px;
+}
+
+h5,h2{
+	font-family: Oswald, sans-serif;
+	color: #d26c22;
+	font-weight: 500;
+	line-height: 33px;
+	margin-top: 2rem;
+}
+
+h2,.temp{
+	color: #505050;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+h3{
+	text-align: center;
+}
+p{
+	color: red;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	font-family: fantasy;
+    padding: 20px;
+}

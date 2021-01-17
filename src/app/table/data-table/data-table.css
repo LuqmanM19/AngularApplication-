@@ -1,0 +1,27 @@
+
+td{
+    padding: 16px 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+th{
+    padding: 16px 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+
+
+table{
+    border-spacing: 0 8px !important;  
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+}

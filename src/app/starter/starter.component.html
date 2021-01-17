@@ -1,0 +1,111 @@
+<div>
+  <br><br><br>
+    <h1 class="title">PREPARATION TIPS TO FACE FLOOD</h1>
+    <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md border border-dark">         
+                <h2>You need to:</h2><br>
+                <p>1. Understand flood risk in your area</p><br>
+                <p>2. Prepare your home and property</p><br>
+                <p>3. Respond when water start to raise</p><br>
+                <p>4. Recover after a flood</p>
+            </div>
+            <div class="col-md border border-dark">         
+                <h2>You can prepare for flood by:</h2><br>
+                <p>1. Check with your local council about flood plans or records</p><br>
+                <p>2. Ask authorities about relocation routes and centres</p><br>
+                <p>3. Prepare emergency kits</p><br>
+                <p>4. Prepare a household flood plan</p><br>
+                <p>5. Keep list of emergency telephone numbers in display</p>
+            </div>
+            <div class="col-md border border-dark">         
+                <h2>Prepare your property:</h2><br>
+                <p>1. Secure hazardous items</p><br>
+                <p>2. Roll up rugs, move furniture, electrical items <br> and valuables to a higher level</p><br>
+                <p>3. Move your PETS to a safer place</p><br>
+                <p>4. Place IMPORTANT documents, valuables and vital medicals supplies 
+                      into WATERPROOF CASE in an accessible location</p><br>
+                <p>5. Monitor forecast and warnings online</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md border border-dark">         
+                <h2>Relocating to safer ground:</h2><br>
+                <p>1. Pack warm clothing, essential medication, valuables and personal papers in 
+                      WATERPROOF BAGS along with emergency kits </p><br>
+                <p>2. Empty freezers and refrigerators, leaving doors open to avoid damage or loss if they loat</p><br>
+                <p>3. TURN OFF power, water and gas</p><br>
+                <p>4. ALWAYS bring your mobile phone</p><br>
+                <p>5. DO NOT drive into water of unknown depth and current</p>
+            </div>
+            <div class="col-md border border-dark">         
+                <h2>If too LATE to leave:</h2><br>
+                <p>1. ALWAYS monitor your local radio for warnings, advice and helps</p><br>
+                <p>2. Get to higher ground</p><br>
+                <p>3. SWITCH OFF electricity and gas supplies</p><br>
+                <p>4. Prepare for the well being of pets</p><br>
+                <p>5. Check your emergency kits</p><br>
+                <p>6. DO NOT allow children to play in or near floodwaters</p><br>
+                <p>7. Avoid entering floodwaters. If you must do so, WEAR solid shoes 
+                      and check depths and current with a stick</p><br>
+                <p>8. STAY AWAY from drains, culverts and water over knee deep</p><br>
+                <p>9. DO NOT use gas or electrical appliances that have been in floodwater</p><br>
+            </div>
+        </div>
+    </div>    
+</div>
+
+<div>
+  <br><br><br>
+  <h1 class="emergency">EMERGENCY CONTACT</h1>
+  <br><br>
+  <div class="container">
+    <p class="jpam"> <img src="assets/jpam.png" class="logo1" alt="JPAM logo"> JPAM HOTLINE 24 HOURS</p>
+    <br><br>  
+    <div class="container">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">STATE</th>
+                  <th scope="col">CENTER</th>
+                  <th scope="col">CONTACT NUMBER</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let el of elements">
+                  <td>{{el.id}}</td>        
+                  <td>{{el.negeri}}</td>
+                  <td>{{el.pusat}}</td> 
+                  <td>{{el.telefon}}</td> 
+                </tr>
+              </tbody>
+            </table>
+       </div>
+   </div>
+</div>
+
+<br><br>
+<div class="container">
+<p class="pdrm"> <img src="assets/pdrm.jpg" class="logo2" alt="PDRM" width="100" height="100"> POLIS DIRAJA MALAYSIA (PDRM)</p>
+<br><br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">STATION</th>
+      <th scope="col">TELEPHONE</th>
+      <th scope="col">FAX</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let num of police">
+      <td>{{num.id}}</td>        
+      <td>{{num.contigen}}</td>
+      <td>{{num.telefon}}</td> 
+      <td>{{num.fax}}</td> 
+    </tr>
+  </tbody>
+</table>
+</div>
